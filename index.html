@@ -19,9 +19,51 @@
                 <label for="test" class="menu-btn">
                     <span></span>
                 </label>
+                <div class="menu">
+                    <label class="menu__label">
+                        <input class="menu__input" type="text">
+                        <button class="menu__search-btn" type="submit">
+                            <svg class="menu__icon" width="18" height="18">
+                                <use href="./img/sprite.svg#icon-search18x18"></use>
+                            </svg>
+                        </button></label>
+                        <ul class="mobile-menu-nav list">
+                            <li class="mobile-menu-nav__item">
+                                <h2 class="mobile-menu-nav__title" data-toggle-list>Компания</h2>
+                            <ul class="mobile-menu-nav__submenu submenu is-hidden list" data-show-list>
+                                <li class="submenu__item"><a class="submenu__link"  href="#">Контакты</a></li>
+                                <li class="submenu__item"><a class="submenu__link"  href="#">О компании</a></li>
+                            </ul>
+                        </li>
+                            <li class="mobile-menu-nav__item">
+                                <h2 class="mobile-menu-nav__title" data-toggle-list>Каталог</h2>
+                            <ul class="mobile-menu-nav__submenu submenu is-hidden list" data-show-list>
+                                <li class="submenu__item"><a class="submenu__link link" href="#">Оконные системы</a></li>
+                                <li class="submenu__item"><a class="submenu__link link" href="#">Фасадные системы</a></li>
+                                <li class="submenu__item"><a class="submenu__link link" href="#">Уличная мебель</a></li>
+                                <li class="submenu__item"><a class="submenu__link link" href="#">Мультимедиа проекторы</a></li>
+                                <li class="submenu__item"><a class="submenu__link link" href="#">Цветные МФУ</a></li>
+                                <li class="submenu__item"><a class="submenu__link link" href="#">Измерительное оборудование</a></li>
+                            </ul>
+                        </li>
+                            <li class="mobile-menu-naw__item">
+                                <a class="link" href=""><h2>Контакты</h2></a>
+                            </li>
+                            <li class="mobile-menu-naw__item">
+                                <a class="link" href=""><h2>Вопросы-ответы</h2></a>
+                            </li>
+                            <li class="mobile-menu-naw__item">
+                                <a  class="link" href=""><h2>Прайс-лист</h2></a>
+                            </li>
+                            <li class="mobile-menu-naw__item">
+                                <a  class="link" href=""><h2>Услуги</h2></a>
+                            </li>
+                        </ul>
+                </div>
+
             </div>
         </div>
     </header>
-    
+    <script src="./js/menu.js"></script>
 </body>
 </html>
